@@ -1,0 +1,5 @@
+Total models: 4
+Total inventory value: 32150.0
+Top 2 most expensive phones:
+P02;Apple;iPhone15;1000.0
+P04;Apple;iPhone14;850.0

@@ -1,0 +1,5 @@
+id;brand;model;os;price;stock
+P01;Samsung;GalaxyS23;Android;800.0;10
+P02;Apple;iPhone15;iOS;1000.0;5
+P03;Google;Pixel8;Android;700.0;8
+P04;Apple;iPhone14;iOS;850.0;12
