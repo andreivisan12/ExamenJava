@@ -7,6 +7,8 @@ package exam;
 //        INVENTORY -> Returns the total inventory value calculated.
 //        Formatting Rule:
 //        The Server must return the data on a single line, separating multiple phones with | and the phone properties with ;.
+import org.sqlite.core.DB;
+
 import java.util.List;
 
 public class ProgMain {
@@ -17,6 +19,9 @@ public class ProgMain {
         phoneManager.multithreadingTasks(phones);
 
         PhoneServer phoneServer = new PhoneServer();
-        phoneServer.startServer(phones);
+       // phoneServer.startServer(phones);
+
+        DBManager dbManager = new DBManager();
+        dbManager.saveToSQLite(phones);
     }
 }
